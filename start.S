@@ -1,5 +1,5 @@
 
-.section .text
+.section .start
 .code16
 .global _start
 _start:

@@ -3,7 +3,7 @@ ASFLAGS=
 LD=ld
 LDFLAGS=-n -m elf_i386
 CC=gcc -m32
-CFLAGS=-O1 -Wall -Wextra -ffreestanding -nostdlib
+CFLAGS=-O3 -Wall -Wextra -ffreestanding -nostdlib
 
 OUTPUT=boot.img
 ASM_OBJS=start.o
