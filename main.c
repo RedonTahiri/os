@@ -2,6 +2,7 @@
 #include "vga_io.h"
 #include "malloc.h"
 
+
 void main()
 {
 	init_alloc();
